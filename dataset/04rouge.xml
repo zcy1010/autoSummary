@@ -1,0 +1,4552 @@
+<ROUGE_EVAL version="1.0">
+<EVAL ID="1">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30001.M.100.T.A</M>
+<M ID="B">D30001.M.100.T.B</M>
+<M ID="C">D30001.M.100.T.C</M>
+<M ID="D">D30001.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="2">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30001.M.100.T.B</M>
+<M ID="C">D30001.M.100.T.C</M>
+<M ID="D">D30001.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="3">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30001.M.100.T.A</M>
+<M ID="C">D30001.M.100.T.C</M>
+<M ID="D">D30001.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="4">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30001.M.100.T.A</M>
+<M ID="B">D30001.M.100.T.B</M>
+<M ID="D">D30001.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="5">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30001.M.100.T.A</M>
+<M ID="B">D30001.M.100.T.B</M>
+<M ID="C">D30001.M.100.T.C</M>
+</MODELS>
+</EVAL>
+<EVAL ID="6">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30002t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30002.M.100.T.A</M>
+<M ID="B">D30002.M.100.T.B</M>
+<M ID="C">D30002.M.100.T.C</M>
+<M ID="E">D30002.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="7">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30002t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30002.M.100.T.B</M>
+<M ID="C">D30002.M.100.T.C</M>
+<M ID="E">D30002.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="8">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30002t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30002.M.100.T.A</M>
+<M ID="C">D30002.M.100.T.C</M>
+<M ID="E">D30002.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="9">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30002t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30002.M.100.T.A</M>
+<M ID="B">D30002.M.100.T.B</M>
+<M ID="E">D30002.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="10">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30002t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30002.M.100.T.A</M>
+<M ID="B">D30002.M.100.T.B</M>
+<M ID="C">D30002.M.100.T.C</M>
+</MODELS>
+</EVAL>
+<EVAL ID="11">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30003t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30003.M.100.T.A</M>
+<M ID="B">D30003.M.100.T.B</M>
+<M ID="C">D30003.M.100.T.C</M>
+<M ID="F">D30003.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="12">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30003t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30003.M.100.T.B</M>
+<M ID="C">D30003.M.100.T.C</M>
+<M ID="F">D30003.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="13">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30003t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30003.M.100.T.A</M>
+<M ID="C">D30003.M.100.T.C</M>
+<M ID="F">D30003.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="14">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30003t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30003.M.100.T.A</M>
+<M ID="B">D30003.M.100.T.B</M>
+<M ID="F">D30003.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="15">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30003t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30003.M.100.T.A</M>
+<M ID="B">D30003.M.100.T.B</M>
+<M ID="C">D30003.M.100.T.C</M>
+</MODELS>
+</EVAL>
+<EVAL ID="16">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30005t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30005.M.100.T.A</M>
+<M ID="B">D30005.M.100.T.B</M>
+<M ID="C">D30005.M.100.T.C</M>
+<M ID="G">D30005.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="17">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30005t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30005.M.100.T.B</M>
+<M ID="C">D30005.M.100.T.C</M>
+<M ID="G">D30005.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="18">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30005t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30005.M.100.T.A</M>
+<M ID="C">D30005.M.100.T.C</M>
+<M ID="G">D30005.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="19">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30005t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30005.M.100.T.A</M>
+<M ID="B">D30005.M.100.T.B</M>
+<M ID="G">D30005.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="20">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30005t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30005.M.100.T.A</M>
+<M ID="B">D30005.M.100.T.B</M>
+<M ID="C">D30005.M.100.T.C</M>
+</MODELS>
+</EVAL>
+<EVAL ID="21">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30006t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30006.M.100.T.A</M>
+<M ID="B">D30006.M.100.T.B</M>
+<M ID="C">D30006.M.100.T.C</M>
+<M ID="H">D30006.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="22">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30006t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30006.M.100.T.B</M>
+<M ID="C">D30006.M.100.T.C</M>
+<M ID="H">D30006.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="23">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30006t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30006.M.100.T.A</M>
+<M ID="C">D30006.M.100.T.C</M>
+<M ID="H">D30006.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="24">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30006t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30006.M.100.T.A</M>
+<M ID="B">D30006.M.100.T.B</M>
+<M ID="H">D30006.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="25">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30006t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30006.M.100.T.A</M>
+<M ID="B">D30006.M.100.T.B</M>
+<M ID="C">D30006.M.100.T.C</M>
+</MODELS>
+</EVAL>
+<EVAL ID="26">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30007t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30007.M.100.T.A</M>
+<M ID="B">D30007.M.100.T.B</M>
+<M ID="D">D30007.M.100.T.D</M>
+<M ID="E">D30007.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="27">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30007t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30007.M.100.T.B</M>
+<M ID="D">D30007.M.100.T.D</M>
+<M ID="E">D30007.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="28">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30007t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30007.M.100.T.A</M>
+<M ID="D">D30007.M.100.T.D</M>
+<M ID="E">D30007.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="29">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30007t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30007.M.100.T.A</M>
+<M ID="B">D30007.M.100.T.B</M>
+<M ID="E">D30007.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="30">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30007t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30007.M.100.T.A</M>
+<M ID="B">D30007.M.100.T.B</M>
+<M ID="D">D30007.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="31">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30008.M.100.T.A</M>
+<M ID="B">D30008.M.100.T.B</M>
+<M ID="D">D30008.M.100.T.D</M>
+<M ID="G">D30008.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="32">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30008.M.100.T.B</M>
+<M ID="D">D30008.M.100.T.D</M>
+<M ID="G">D30008.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="33">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30008.M.100.T.A</M>
+<M ID="D">D30008.M.100.T.D</M>
+<M ID="G">D30008.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="34">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30008.M.100.T.A</M>
+<M ID="B">D30008.M.100.T.B</M>
+<M ID="G">D30008.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="35">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30008.M.100.T.A</M>
+<M ID="B">D30008.M.100.T.B</M>
+<M ID="D">D30008.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="36">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30010t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30010.M.100.T.A</M>
+<M ID="B">D30010.M.100.T.B</M>
+<M ID="D">D30010.M.100.T.D</M>
+<M ID="H">D30010.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="37">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30010t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30010.M.100.T.B</M>
+<M ID="D">D30010.M.100.T.D</M>
+<M ID="H">D30010.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="38">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30010t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30010.M.100.T.A</M>
+<M ID="D">D30010.M.100.T.D</M>
+<M ID="H">D30010.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="39">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30010t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30010.M.100.T.A</M>
+<M ID="B">D30010.M.100.T.B</M>
+<M ID="H">D30010.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="40">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30010t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30010.M.100.T.A</M>
+<M ID="B">D30010.M.100.T.B</M>
+<M ID="D">D30010.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="41">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30011t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30011.M.100.T.A</M>
+<M ID="B">D30011.M.100.T.B</M>
+<M ID="E">D30011.M.100.T.E</M>
+<M ID="F">D30011.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="42">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30011t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30011.M.100.T.B</M>
+<M ID="E">D30011.M.100.T.E</M>
+<M ID="F">D30011.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="43">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30011t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30011.M.100.T.A</M>
+<M ID="E">D30011.M.100.T.E</M>
+<M ID="F">D30011.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="44">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30011t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30011.M.100.T.A</M>
+<M ID="B">D30011.M.100.T.B</M>
+<M ID="F">D30011.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="45">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30011t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30011.M.100.T.A</M>
+<M ID="B">D30011.M.100.T.B</M>
+<M ID="E">D30011.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="46">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30015t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30015.M.100.T.A</M>
+<M ID="B">D30015.M.100.T.B</M>
+<M ID="E">D30015.M.100.T.E</M>
+<M ID="H">D30015.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="47">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30015t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30015.M.100.T.B</M>
+<M ID="E">D30015.M.100.T.E</M>
+<M ID="H">D30015.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="48">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30015t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30015.M.100.T.A</M>
+<M ID="E">D30015.M.100.T.E</M>
+<M ID="H">D30015.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="49">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30015t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30015.M.100.T.A</M>
+<M ID="B">D30015.M.100.T.B</M>
+<M ID="H">D30015.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="50">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30015t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30015.M.100.T.A</M>
+<M ID="B">D30015.M.100.T.B</M>
+<M ID="E">D30015.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="51">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30017t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30017.M.100.T.A</M>
+<M ID="B">D30017.M.100.T.B</M>
+<M ID="F">D30017.M.100.T.F</M>
+<M ID="G">D30017.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="52">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30017t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30017.M.100.T.B</M>
+<M ID="F">D30017.M.100.T.F</M>
+<M ID="G">D30017.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="53">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30017t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30017.M.100.T.A</M>
+<M ID="F">D30017.M.100.T.F</M>
+<M ID="G">D30017.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="54">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30017t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30017.M.100.T.A</M>
+<M ID="B">D30017.M.100.T.B</M>
+<M ID="G">D30017.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="55">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30017t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30017.M.100.T.A</M>
+<M ID="B">D30017.M.100.T.B</M>
+<M ID="F">D30017.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="56">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30020t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30020.M.100.T.A</M>
+<M ID="C">D30020.M.100.T.C</M>
+<M ID="D">D30020.M.100.T.D</M>
+<M ID="E">D30020.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="57">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30020t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30020.M.100.T.C</M>
+<M ID="D">D30020.M.100.T.D</M>
+<M ID="E">D30020.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="58">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30020t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30020.M.100.T.A</M>
+<M ID="D">D30020.M.100.T.D</M>
+<M ID="E">D30020.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="59">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30020t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30020.M.100.T.A</M>
+<M ID="C">D30020.M.100.T.C</M>
+<M ID="E">D30020.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="60">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30020t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30020.M.100.T.A</M>
+<M ID="C">D30020.M.100.T.C</M>
+<M ID="D">D30020.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="61">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30022.M.100.T.A</M>
+<M ID="C">D30022.M.100.T.C</M>
+<M ID="D">D30022.M.100.T.D</M>
+<M ID="F">D30022.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="62">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30022.M.100.T.C</M>
+<M ID="D">D30022.M.100.T.D</M>
+<M ID="F">D30022.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="63">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30022.M.100.T.A</M>
+<M ID="D">D30022.M.100.T.D</M>
+<M ID="F">D30022.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="64">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30022.M.100.T.A</M>
+<M ID="C">D30022.M.100.T.C</M>
+<M ID="F">D30022.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="65">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30022.M.100.T.A</M>
+<M ID="C">D30022.M.100.T.C</M>
+<M ID="D">D30022.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="66">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30024t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30024.M.100.T.A</M>
+<M ID="C">D30024.M.100.T.C</M>
+<M ID="D">D30024.M.100.T.D</M>
+<M ID="G">D30024.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="67">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30024t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30024.M.100.T.C</M>
+<M ID="D">D30024.M.100.T.D</M>
+<M ID="G">D30024.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="68">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30024t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30024.M.100.T.A</M>
+<M ID="D">D30024.M.100.T.D</M>
+<M ID="G">D30024.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="69">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30024t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30024.M.100.T.A</M>
+<M ID="C">D30024.M.100.T.C</M>
+<M ID="G">D30024.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="70">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30024t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30024.M.100.T.A</M>
+<M ID="C">D30024.M.100.T.C</M>
+<M ID="D">D30024.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="71">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30026.M.100.T.A</M>
+<M ID="C">D30026.M.100.T.C</M>
+<M ID="D">D30026.M.100.T.D</M>
+<M ID="H">D30026.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="72">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30026.M.100.T.C</M>
+<M ID="D">D30026.M.100.T.D</M>
+<M ID="H">D30026.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="73">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30026.M.100.T.A</M>
+<M ID="D">D30026.M.100.T.D</M>
+<M ID="H">D30026.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="74">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30026.M.100.T.A</M>
+<M ID="C">D30026.M.100.T.C</M>
+<M ID="H">D30026.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="75">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30026.M.100.T.A</M>
+<M ID="C">D30026.M.100.T.C</M>
+<M ID="D">D30026.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="76">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30027t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30027.M.100.T.A</M>
+<M ID="C">D30027.M.100.T.C</M>
+<M ID="E">D30027.M.100.T.E</M>
+<M ID="G">D30027.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="77">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30027t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30027.M.100.T.C</M>
+<M ID="E">D30027.M.100.T.E</M>
+<M ID="G">D30027.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="78">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30027t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30027.M.100.T.A</M>
+<M ID="E">D30027.M.100.T.E</M>
+<M ID="G">D30027.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="79">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30027t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30027.M.100.T.A</M>
+<M ID="C">D30027.M.100.T.C</M>
+<M ID="G">D30027.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="80">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30027t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30027.M.100.T.A</M>
+<M ID="C">D30027.M.100.T.C</M>
+<M ID="E">D30027.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="81">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30028t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30028.M.100.T.A</M>
+<M ID="C">D30028.M.100.T.C</M>
+<M ID="F">D30028.M.100.T.F</M>
+<M ID="G">D30028.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="82">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30028t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30028.M.100.T.C</M>
+<M ID="F">D30028.M.100.T.F</M>
+<M ID="G">D30028.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="83">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30028t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30028.M.100.T.A</M>
+<M ID="F">D30028.M.100.T.F</M>
+<M ID="G">D30028.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="84">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30028t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30028.M.100.T.A</M>
+<M ID="C">D30028.M.100.T.C</M>
+<M ID="G">D30028.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="85">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30028t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30028.M.100.T.A</M>
+<M ID="C">D30028.M.100.T.C</M>
+<M ID="F">D30028.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="86">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30029t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30029.M.100.T.A</M>
+<M ID="C">D30029.M.100.T.C</M>
+<M ID="F">D30029.M.100.T.F</M>
+<M ID="H">D30029.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="87">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30029t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30029.M.100.T.C</M>
+<M ID="F">D30029.M.100.T.F</M>
+<M ID="H">D30029.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="88">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30029t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30029.M.100.T.A</M>
+<M ID="F">D30029.M.100.T.F</M>
+<M ID="H">D30029.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="89">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30029t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30029.M.100.T.A</M>
+<M ID="C">D30029.M.100.T.C</M>
+<M ID="H">D30029.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="90">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30029t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30029.M.100.T.A</M>
+<M ID="C">D30029.M.100.T.C</M>
+<M ID="F">D30029.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="91">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30031.M.100.T.A</M>
+<M ID="D">D30031.M.100.T.D</M>
+<M ID="E">D30031.M.100.T.E</M>
+<M ID="F">D30031.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="92">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D30031.M.100.T.D</M>
+<M ID="E">D30031.M.100.T.E</M>
+<M ID="F">D30031.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="93">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30031.M.100.T.A</M>
+<M ID="E">D30031.M.100.T.E</M>
+<M ID="F">D30031.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="94">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30031.M.100.T.A</M>
+<M ID="D">D30031.M.100.T.D</M>
+<M ID="F">D30031.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="95">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30031.M.100.T.A</M>
+<M ID="D">D30031.M.100.T.D</M>
+<M ID="E">D30031.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="96">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30033.M.100.T.A</M>
+<M ID="D">D30033.M.100.T.D</M>
+<M ID="E">D30033.M.100.T.E</M>
+<M ID="G">D30033.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="97">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D30033.M.100.T.D</M>
+<M ID="E">D30033.M.100.T.E</M>
+<M ID="G">D30033.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="98">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30033.M.100.T.A</M>
+<M ID="E">D30033.M.100.T.E</M>
+<M ID="G">D30033.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="99">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30033.M.100.T.A</M>
+<M ID="D">D30033.M.100.T.D</M>
+<M ID="G">D30033.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="100">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30033.M.100.T.A</M>
+<M ID="D">D30033.M.100.T.D</M>
+<M ID="E">D30033.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="101">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30034t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30034.M.100.T.A</M>
+<M ID="D">D30034.M.100.T.D</M>
+<M ID="F">D30034.M.100.T.F</M>
+<M ID="G">D30034.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="1">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30034t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D30034.M.100.T.D</M>
+<M ID="F">D30034.M.100.T.F</M>
+<M ID="G">D30034.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="103">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30034t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30034.M.100.T.A</M>
+<M ID="F">D30034.M.100.T.F</M>
+<M ID="G">D30034.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="104">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30034t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30034.M.100.T.A</M>
+<M ID="D">D30034.M.100.T.D</M>
+<M ID="G">D30034.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="105">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30034t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30034.M.100.T.A</M>
+<M ID="D">D30034.M.100.T.D</M>
+<M ID="F">D30034.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="106">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30036t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30036.M.100.T.A</M>
+<M ID="D">D30036.M.100.T.D</M>
+<M ID="F">D30036.M.100.T.F</M>
+<M ID="H">D30036.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="107">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30036t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D30036.M.100.T.D</M>
+<M ID="F">D30036.M.100.T.F</M>
+<M ID="H">D30036.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="108">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30036t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30036.M.100.T.A</M>
+<M ID="F">D30036.M.100.T.F</M>
+<M ID="H">D30036.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="109">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30036t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30036.M.100.T.A</M>
+<M ID="D">D30036.M.100.T.D</M>
+<M ID="H">D30036.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="110">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30036t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30036.M.100.T.A</M>
+<M ID="D">D30036.M.100.T.D</M>
+<M ID="F">D30036.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="111">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30037t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30037.M.100.T.A</M>
+<M ID="D">D30037.M.100.T.D</M>
+<M ID="G">D30037.M.100.T.G</M>
+<M ID="H">D30037.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="112">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30037t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D30037.M.100.T.D</M>
+<M ID="G">D30037.M.100.T.G</M>
+<M ID="H">D30037.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="113">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30037t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30037.M.100.T.A</M>
+<M ID="G">D30037.M.100.T.G</M>
+<M ID="H">D30037.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="114">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30037t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30037.M.100.T.A</M>
+<M ID="D">D30037.M.100.T.D</M>
+<M ID="H">D30037.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="115">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30037t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30037.M.100.T.A</M>
+<M ID="D">D30037.M.100.T.D</M>
+<M ID="G">D30037.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="116">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30038.M.100.T.A</M>
+<M ID="E">D30038.M.100.T.E</M>
+<M ID="F">D30038.M.100.T.F</M>
+<M ID="H">D30038.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="117">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D30038.M.100.T.E</M>
+<M ID="F">D30038.M.100.T.F</M>
+<M ID="H">D30038.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="118">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30038.M.100.T.A</M>
+<M ID="F">D30038.M.100.T.F</M>
+<M ID="H">D30038.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="119">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30038.M.100.T.A</M>
+<M ID="E">D30038.M.100.T.E</M>
+<M ID="H">D30038.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="120">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30038.M.100.T.A</M>
+<M ID="E">D30038.M.100.T.E</M>
+<M ID="F">D30038.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="121">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30040t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30040.M.100.T.A</M>
+<M ID="E">D30040.M.100.T.E</M>
+<M ID="G">D30040.M.100.T.G</M>
+<M ID="H">D30040.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="122">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30040t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D30040.M.100.T.E</M>
+<M ID="G">D30040.M.100.T.G</M>
+<M ID="H">D30040.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="123">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30040t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30040.M.100.T.A</M>
+<M ID="G">D30040.M.100.T.G</M>
+<M ID="H">D30040.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="124">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30040t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30040.M.100.T.A</M>
+<M ID="E">D30040.M.100.T.E</M>
+<M ID="H">D30040.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="125">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30040t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="A">D30040.M.100.T.A</M>
+<M ID="E">D30040.M.100.T.E</M>
+<M ID="G">D30040.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="126">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30042t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30042.M.100.T.B</M>
+<M ID="C">D30042.M.100.T.C</M>
+<M ID="D">D30042.M.100.T.D</M>
+<M ID="F">D30042.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="127">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30042t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30042.M.100.T.C</M>
+<M ID="D">D30042.M.100.T.D</M>
+<M ID="F">D30042.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="128">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30042t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30042.M.100.T.B</M>
+<M ID="D">D30042.M.100.T.D</M>
+<M ID="F">D30042.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="129">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30042t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30042.M.100.T.B</M>
+<M ID="C">D30042.M.100.T.C</M>
+<M ID="F">D30042.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="130">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30042t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30042.M.100.T.B</M>
+<M ID="C">D30042.M.100.T.C</M>
+<M ID="D">D30042.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="131">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30044t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30044.M.100.T.B</M>
+<M ID="C">D30044.M.100.T.C</M>
+<M ID="D">D30044.M.100.T.D</M>
+<M ID="G">D30044.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="132">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30044t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30044.M.100.T.C</M>
+<M ID="D">D30044.M.100.T.D</M>
+<M ID="G">D30044.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="133">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30044t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30044.M.100.T.B</M>
+<M ID="D">D30044.M.100.T.D</M>
+<M ID="G">D30044.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="134">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30044t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30044.M.100.T.B</M>
+<M ID="C">D30044.M.100.T.C</M>
+<M ID="G">D30044.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="135">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30044t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30044.M.100.T.B</M>
+<M ID="C">D30044.M.100.T.C</M>
+<M ID="D">D30044.M.100.T.D</M>
+</MODELS>
+</EVAL>
+<EVAL ID="136">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30045t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30045.M.100.T.B</M>
+<M ID="C">D30045.M.100.T.C</M>
+<M ID="E">D30045.M.100.T.E</M>
+<M ID="F">D30045.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="137">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30045t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30045.M.100.T.C</M>
+<M ID="E">D30045.M.100.T.E</M>
+<M ID="F">D30045.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="138">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30045t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30045.M.100.T.B</M>
+<M ID="E">D30045.M.100.T.E</M>
+<M ID="F">D30045.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="139">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30045t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30045.M.100.T.B</M>
+<M ID="C">D30045.M.100.T.C</M>
+<M ID="F">D30045.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="140">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30045t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30045.M.100.T.B</M>
+<M ID="C">D30045.M.100.T.C</M>
+<M ID="E">D30045.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="141">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30046t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30046.M.100.T.B</M>
+<M ID="C">D30046.M.100.T.C</M>
+<M ID="E">D30046.M.100.T.E</M>
+<M ID="H">D30046.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="142">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30046t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30046.M.100.T.C</M>
+<M ID="E">D30046.M.100.T.E</M>
+<M ID="H">D30046.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="143">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30046t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30046.M.100.T.B</M>
+<M ID="E">D30046.M.100.T.E</M>
+<M ID="H">D30046.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="144">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30046t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30046.M.100.T.B</M>
+<M ID="C">D30046.M.100.T.C</M>
+<M ID="H">D30046.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="145">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30046t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30046.M.100.T.B</M>
+<M ID="C">D30046.M.100.T.C</M>
+<M ID="E">D30046.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="146">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30047t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30047.M.100.T.B</M>
+<M ID="C">D30047.M.100.T.C</M>
+<M ID="F">D30047.M.100.T.F</M>
+<M ID="H">D30047.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="147">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30047t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30047.M.100.T.C</M>
+<M ID="F">D30047.M.100.T.F</M>
+<M ID="H">D30047.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="148">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30047t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30047.M.100.T.B</M>
+<M ID="F">D30047.M.100.T.F</M>
+<M ID="H">D30047.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="149">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30047t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30047.M.100.T.B</M>
+<M ID="C">D30047.M.100.T.C</M>
+<M ID="H">D30047.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="150">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30047t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30047.M.100.T.B</M>
+<M ID="C">D30047.M.100.T.C</M>
+<M ID="F">D30047.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="151">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30048t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30048.M.100.T.B</M>
+<M ID="C">D30048.M.100.T.C</M>
+<M ID="G">D30048.M.100.T.G</M>
+<M ID="H">D30048.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="152">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30048t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D30048.M.100.T.C</M>
+<M ID="G">D30048.M.100.T.G</M>
+<M ID="H">D30048.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="153">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30048t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30048.M.100.T.B</M>
+<M ID="G">D30048.M.100.T.G</M>
+<M ID="H">D30048.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="154">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30048t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30048.M.100.T.B</M>
+<M ID="C">D30048.M.100.T.C</M>
+<M ID="H">D30048.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="155">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30048t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30048.M.100.T.B</M>
+<M ID="C">D30048.M.100.T.C</M>
+<M ID="G">D30048.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="156">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30049t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30049.M.100.T.B</M>
+<M ID="D">D30049.M.100.T.D</M>
+<M ID="E">D30049.M.100.T.E</M>
+<M ID="G">D30049.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="157">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30049t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D30049.M.100.T.D</M>
+<M ID="E">D30049.M.100.T.E</M>
+<M ID="G">D30049.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="158">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30049t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30049.M.100.T.B</M>
+<M ID="E">D30049.M.100.T.E</M>
+<M ID="G">D30049.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="159">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30049t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30049.M.100.T.B</M>
+<M ID="D">D30049.M.100.T.D</M>
+<M ID="G">D30049.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="160">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30049t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30049.M.100.T.B</M>
+<M ID="D">D30049.M.100.T.D</M>
+<M ID="E">D30049.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="161">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30050.M.100.T.B</M>
+<M ID="D">D30050.M.100.T.D</M>
+<M ID="E">D30050.M.100.T.E</M>
+<M ID="H">D30050.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="162">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D30050.M.100.T.D</M>
+<M ID="E">D30050.M.100.T.E</M>
+<M ID="H">D30050.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="163">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30050.M.100.T.B</M>
+<M ID="E">D30050.M.100.T.E</M>
+<M ID="H">D30050.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="164">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30050.M.100.T.B</M>
+<M ID="D">D30050.M.100.T.D</M>
+<M ID="H">D30050.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="165">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30050.M.100.T.B</M>
+<M ID="D">D30050.M.100.T.D</M>
+<M ID="E">D30050.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="166">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30051t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30051.M.100.T.B</M>
+<M ID="D">D30051.M.100.T.D</M>
+<M ID="F">D30051.M.100.T.F</M>
+<M ID="H">D30051.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="167">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30051t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D30051.M.100.T.D</M>
+<M ID="F">D30051.M.100.T.F</M>
+<M ID="H">D30051.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="168">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30051t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30051.M.100.T.B</M>
+<M ID="F">D30051.M.100.T.F</M>
+<M ID="H">D30051.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="169">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30051t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30051.M.100.T.B</M>
+<M ID="D">D30051.M.100.T.D</M>
+<M ID="H">D30051.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="170">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30051t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30051.M.100.T.B</M>
+<M ID="D">D30051.M.100.T.D</M>
+<M ID="F">D30051.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="171">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30053t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30053.M.100.T.B</M>
+<M ID="E">D30053.M.100.T.E</M>
+<M ID="F">D30053.M.100.T.F</M>
+<M ID="G">D30053.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="172">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30053t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D30053.M.100.T.E</M>
+<M ID="F">D30053.M.100.T.F</M>
+<M ID="G">D30053.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="173">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30053t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30053.M.100.T.B</M>
+<M ID="F">D30053.M.100.T.F</M>
+<M ID="G">D30053.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="174">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30053t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30053.M.100.T.B</M>
+<M ID="E">D30053.M.100.T.E</M>
+<M ID="G">D30053.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="175">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30053t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30053.M.100.T.B</M>
+<M ID="E">D30053.M.100.T.E</M>
+<M ID="F">D30053.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="176">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30055t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30055.M.100.T.B</M>
+<M ID="E">D30055.M.100.T.E</M>
+<M ID="F">D30055.M.100.T.F</M>
+<M ID="H">D30055.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="177">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30055t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D30055.M.100.T.E</M>
+<M ID="F">D30055.M.100.T.F</M>
+<M ID="H">D30055.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="178">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30055t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30055.M.100.T.B</M>
+<M ID="F">D30055.M.100.T.F</M>
+<M ID="H">D30055.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="179">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30055t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30055.M.100.T.B</M>
+<M ID="E">D30055.M.100.T.E</M>
+<M ID="H">D30055.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="180">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30055t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30055.M.100.T.B</M>
+<M ID="E">D30055.M.100.T.E</M>
+<M ID="F">D30055.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="181">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30056t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30056.M.100.T.B</M>
+<M ID="E">D30056.M.100.T.E</M>
+<M ID="G">D30056.M.100.T.G</M>
+<M ID="H">D30056.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="182">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30056t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D30056.M.100.T.E</M>
+<M ID="G">D30056.M.100.T.G</M>
+<M ID="H">D30056.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="183">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30056t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30056.M.100.T.B</M>
+<M ID="G">D30056.M.100.T.G</M>
+<M ID="H">D30056.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="184">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30056t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30056.M.100.T.B</M>
+<M ID="E">D30056.M.100.T.E</M>
+<M ID="H">D30056.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="185">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30056t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30056.M.100.T.B</M>
+<M ID="E">D30056.M.100.T.E</M>
+<M ID="G">D30056.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="186">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30059t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30059.M.100.T.B</M>
+<M ID="F">D30059.M.100.T.F</M>
+<M ID="G">D30059.M.100.T.G</M>
+<M ID="H">D30059.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="187">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30059t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="F">D30059.M.100.T.F</M>
+<M ID="G">D30059.M.100.T.G</M>
+<M ID="H">D30059.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="188">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30059t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30059.M.100.T.B</M>
+<M ID="G">D30059.M.100.T.G</M>
+<M ID="H">D30059.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="189">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30059t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30059.M.100.T.B</M>
+<M ID="F">D30059.M.100.T.F</M>
+<M ID="H">D30059.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="190">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d30059t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D30059.M.100.T.B</M>
+<M ID="F">D30059.M.100.T.F</M>
+<M ID="G">D30059.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="191">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31001.M.100.T.C</M>
+<M ID="D">D31001.M.100.T.D</M>
+<M ID="E">D31001.M.100.T.E</M>
+<M ID="G">D31001.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="192">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31001.M.100.T.D</M>
+<M ID="E">D31001.M.100.T.E</M>
+<M ID="G">D31001.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="193">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31001.M.100.T.C</M>
+<M ID="E">D31001.M.100.T.E</M>
+<M ID="G">D31001.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="194">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31001.M.100.T.C</M>
+<M ID="D">D31001.M.100.T.D</M>
+<M ID="G">D31001.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="195">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31001t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31001.M.100.T.C</M>
+<M ID="D">D31001.M.100.T.D</M>
+<M ID="E">D31001.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="196">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31008.M.100.T.C</M>
+<M ID="D">D31008.M.100.T.D</M>
+<M ID="E">D31008.M.100.T.E</M>
+<M ID="H">D31008.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="197">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31008.M.100.T.D</M>
+<M ID="E">D31008.M.100.T.E</M>
+<M ID="H">D31008.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="198">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31008.M.100.T.C</M>
+<M ID="E">D31008.M.100.T.E</M>
+<M ID="H">D31008.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="199">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31008.M.100.T.C</M>
+<M ID="D">D31008.M.100.T.D</M>
+<M ID="H">D31008.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="200">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31008t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31008.M.100.T.C</M>
+<M ID="D">D31008.M.100.T.D</M>
+<M ID="E">D31008.M.100.T.E</M>
+</MODELS>
+</EVAL>
+<EVAL ID="201">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31009t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D31009.M.100.T.B</M>
+<M ID="C">D31009.M.100.T.C</M>
+<M ID="F">D31009.M.100.T.F</M>
+<M ID="G">D31009.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="202">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31009t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31009.M.100.T.C</M>
+<M ID="F">D31009.M.100.T.F</M>
+<M ID="G">D31009.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="203">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31009t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D31009.M.100.T.B</M>
+<M ID="F">D31009.M.100.T.F</M>
+<M ID="G">D31009.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="204">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31009t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D31009.M.100.T.B</M>
+<M ID="C">D31009.M.100.T.C</M>
+<M ID="G">D31009.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="205">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31009t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="B">D31009.M.100.T.B</M>
+<M ID="C">D31009.M.100.T.C</M>
+<M ID="F">D31009.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="206">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31013t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31013.M.100.T.C</M>
+<M ID="D">D31013.M.100.T.D</M>
+<M ID="G">D31013.M.100.T.G</M>
+<M ID="H">D31013.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="207">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31013t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31013.M.100.T.D</M>
+<M ID="G">D31013.M.100.T.G</M>
+<M ID="H">D31013.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="208">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31013t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31013.M.100.T.C</M>
+<M ID="G">D31013.M.100.T.G</M>
+<M ID="H">D31013.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="209">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31013t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31013.M.100.T.C</M>
+<M ID="D">D31013.M.100.T.D</M>
+<M ID="H">D31013.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="210">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31013t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31013.M.100.T.C</M>
+<M ID="D">D31013.M.100.T.D</M>
+<M ID="G">D31013.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="211">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31022.M.100.T.C</M>
+<M ID="E">D31022.M.100.T.E</M>
+<M ID="F">D31022.M.100.T.F</M>
+<M ID="G">D31022.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="212">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D31022.M.100.T.E</M>
+<M ID="F">D31022.M.100.T.F</M>
+<M ID="G">D31022.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="213">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31022.M.100.T.C</M>
+<M ID="F">D31022.M.100.T.F</M>
+<M ID="G">D31022.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="214">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31022.M.100.T.C</M>
+<M ID="E">D31022.M.100.T.E</M>
+<M ID="G">D31022.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="215">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31022t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31022.M.100.T.C</M>
+<M ID="E">D31022.M.100.T.E</M>
+<M ID="F">D31022.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="216">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31026.M.100.T.C</M>
+<M ID="E">D31026.M.100.T.E</M>
+<M ID="F">D31026.M.100.T.F</M>
+<M ID="H">D31026.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="217">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D31026.M.100.T.E</M>
+<M ID="F">D31026.M.100.T.F</M>
+<M ID="H">D31026.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="218">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31026.M.100.T.C</M>
+<M ID="F">D31026.M.100.T.F</M>
+<M ID="H">D31026.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="219">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31026.M.100.T.C</M>
+<M ID="E">D31026.M.100.T.E</M>
+<M ID="H">D31026.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="220">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31026t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31026.M.100.T.C</M>
+<M ID="E">D31026.M.100.T.E</M>
+<M ID="F">D31026.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="221">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31031.M.100.T.C</M>
+<M ID="F">D31031.M.100.T.F</M>
+<M ID="G">D31031.M.100.T.G</M>
+<M ID="H">D31031.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="222">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="F">D31031.M.100.T.F</M>
+<M ID="G">D31031.M.100.T.G</M>
+<M ID="H">D31031.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="223">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31031.M.100.T.C</M>
+<M ID="G">D31031.M.100.T.G</M>
+<M ID="H">D31031.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="224">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31031.M.100.T.C</M>
+<M ID="F">D31031.M.100.T.F</M>
+<M ID="H">D31031.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="225">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31031t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="C">D31031.M.100.T.C</M>
+<M ID="F">D31031.M.100.T.F</M>
+<M ID="G">D31031.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="226">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31032t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31032.M.100.T.D</M>
+<M ID="E">D31032.M.100.T.E</M>
+<M ID="F">D31032.M.100.T.F</M>
+<M ID="G">D31032.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="227">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31032t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D31032.M.100.T.E</M>
+<M ID="F">D31032.M.100.T.F</M>
+<M ID="G">D31032.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="228">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31032t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31032.M.100.T.D</M>
+<M ID="F">D31032.M.100.T.F</M>
+<M ID="G">D31032.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="229">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31032t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31032.M.100.T.D</M>
+<M ID="E">D31032.M.100.T.E</M>
+<M ID="G">D31032.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="230">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31032t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31032.M.100.T.D</M>
+<M ID="E">D31032.M.100.T.E</M>
+<M ID="F">D31032.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="231">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31033.M.100.T.D</M>
+<M ID="E">D31033.M.100.T.E</M>
+<M ID="F">D31033.M.100.T.F</M>
+<M ID="H">D31033.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="232">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D31033.M.100.T.E</M>
+<M ID="F">D31033.M.100.T.F</M>
+<M ID="H">D31033.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="233">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31033.M.100.T.D</M>
+<M ID="F">D31033.M.100.T.F</M>
+<M ID="H">D31033.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="234">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31033.M.100.T.D</M>
+<M ID="E">D31033.M.100.T.E</M>
+<M ID="H">D31033.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="235">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31033t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31033.M.100.T.D</M>
+<M ID="E">D31033.M.100.T.E</M>
+<M ID="F">D31033.M.100.T.F</M>
+</MODELS>
+</EVAL>
+<EVAL ID="236">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31038.M.100.T.D</M>
+<M ID="E">D31038.M.100.T.E</M>
+<M ID="G">D31038.M.100.T.G</M>
+<M ID="H">D31038.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="237">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D31038.M.100.T.E</M>
+<M ID="G">D31038.M.100.T.G</M>
+<M ID="H">D31038.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="238">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31038.M.100.T.D</M>
+<M ID="G">D31038.M.100.T.G</M>
+<M ID="H">D31038.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="239">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31038.M.100.T.D</M>
+<M ID="E">D31038.M.100.T.E</M>
+<M ID="H">D31038.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="240">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31038t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31038.M.100.T.D</M>
+<M ID="E">D31038.M.100.T.E</M>
+<M ID="G">D31038.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="241">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31043t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31043.M.100.T.D</M>
+<M ID="F">D31043.M.100.T.F</M>
+<M ID="G">D31043.M.100.T.G</M>
+<M ID="H">D31043.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="242">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31043t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="F">D31043.M.100.T.F</M>
+<M ID="G">D31043.M.100.T.G</M>
+<M ID="H">D31043.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="243">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31043t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31043.M.100.T.D</M>
+<M ID="G">D31043.M.100.T.G</M>
+<M ID="H">D31043.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="244">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31043t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31043.M.100.T.D</M>
+<M ID="F">D31043.M.100.T.F</M>
+<M ID="H">D31043.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="245">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31043t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="D">D31043.M.100.T.D</M>
+<M ID="F">D31043.M.100.T.F</M>
+<M ID="G">D31043.M.100.T.G</M>
+</MODELS>
+</EVAL>
+<EVAL ID="246">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D31050.M.100.T.E</M>
+<M ID="F">D31050.M.100.T.F</M>
+<M ID="G">D31050.M.100.T.G</M>
+<M ID="H">D31050.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="247">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="F">D31050.M.100.T.F</M>
+<M ID="G">D31050.M.100.T.G</M>
+<M ID="H">D31050.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="248">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D31050.M.100.T.E</M>
+<M ID="G">D31050.M.100.T.G</M>
+<M ID="H">D31050.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="249">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D31050.M.100.T.E</M>
+<M ID="F">D31050.M.100.T.F</M>
+<M ID="H">D31050.M.100.T.H</M>
+</MODELS>
+</EVAL>
+<EVAL ID="250">
+<PEER-ROOT>
+D:\Experiments\WordNumInSen\Summary\2004\20100519-clus_based
+</PEER-ROOT>
+<MODEL-ROOT>
+D:\Experiments\2010-newest rouge and dataset\Rouge\04Rouge\04model
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">d31050t.Sen.TopicSent</P>
+</PEERS>
+<MODELS>
+<M ID="E">D31050.M.100.T.E</M>
+<M ID="F">D31050.M.100.T.F</M>
+<M ID="G">D31050.M.100.T.G</M>
+</MODELS>
+</EVAL>
+</ROUGE_EVAL>

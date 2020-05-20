@@ -54,12 +54,29 @@ def pretreatment(docSentences):
         cleanWord = ''
         lowerSentence = sentences[i].lower()
         withoutPunctuation = lowerSentence.translate(punctuation_map)
-        tokens = nltk.word_tokenize(withoutPunctuation)
+        tokens = nltk.word_tokenize(withoutPunctuation)  # 将文章进行分词处理,将一段话转变成一个list，将标点符号转化为none即空
         withoutStopwords = [w for w in tokens if not w in stopwords.words('english')]  # 去除文章的停用词
         for j in range(len(withoutStopwords)):
             cleanWord = cleanWord + s.stem(withoutStopwords[j]) + ' '  # 提取词干 将进行时过去式等还成原来的状态
         newSentence = newSentence + cleanWord + '.'
     return newSentence
+
+
+def pretreatmentForDocHits(longSentenceForEveryDoc):
+    punctuation_map = dict((ord(char), None) for char in string.punctuation)  # 引入标点符号，为下步去除标点做准备  #所有的标点字符
+    s = nltk.stem.SnowballStemmer('english')  # 在提取词干时,语言使用英语,使用的语言是英语
+    # 装入清洗好的十个句子，即10个文档句子
+    newSentences = []
+    for everyDocSentence in longSentenceForEveryDoc:
+        cleanWord = ''
+        lowerSentence = everyDocSentence.lower()
+        withoutPunctuation = lowerSentence.translate(punctuation_map)  #
+        tokens = nltk.word_tokenize(withoutPunctuation)  # 将文章进行分词处理,将一段话转变成一个list，将标点符号转化为none即空
+        withoutStopwords = [w for w in tokens if not w in stopwords.words('english')]  # 去除文章的停用词
+        for j in range(len(withoutStopwords)):
+            cleanWord = cleanWord + s.stem(withoutStopwords[j]) + ' '  # 提取词干 将进行时过去式等还成原来的状态
+        newSentences.append(cleanWord)
+    return newSentences
 
 
 def getColumns(docList):
@@ -73,9 +90,15 @@ def getColumns(docList):
         sentences = doc.split('.')
         for sentence in sentences:
             words = sentence.split(' ')
-            # while '' in words:
-            #     words.remove('')
             columns = columns | set(words)
+    return columns
+
+
+def getColumnsForDocHITS(longSentenceForEveryDocClean):
+    columns = set()
+    for sentence in longSentenceForEveryDocClean:
+        words = sentence.split(' ')
+        columns = columns | set(words)
     return columns
 
 
@@ -93,6 +116,18 @@ def getLongSentence(docList):
         sentences = doc.split('.')
         for sentence in sentences:
             longSentence = longSentence + sentence + ' '
+    return longSentence
+
+
+def getDocSentence(docList):
+    longSentence = []
+    for doc in docList:
+        docSentence = ''
+        sentences = doc.split('.')
+        for sentence in sentences:
+            docSentence = docSentence + sentence + ''
+        docSentence = docSentence + '.'
+        longSentence.append(docSentence)
     return longSentence
 
 
@@ -169,7 +204,31 @@ def calculateSimilar(sentenceList, countSentenceList, columns):
     innerMatrix = np.sum(np.multiply(TFISFMatrix, TFISFMatrix), axis=1, keepdims=True)
     innerMatrix = np.sqrt(np.dot(innerMatrix, innerMatrix.transpose()))
     similarMatrix = np.divide(similarMatrix, innerMatrix)
-    # similarMatrix = similarMatrix / innerMatrix
+    return similarMatrix
+
+
+def calculateSimilarForDocHITS(sentenceList, countSentenceList, columns, longSentenceForEveryDocClean,
+                               countSentenceListForEveryDoc, columnsForDocHits):
+    TFISFZerosDoc = np.zeros(((len(longSentenceForEveryDocClean)), (len(columnsForDocHits))), dtype=float)
+    TFISFDataFrameDoc = pd.DataFrame(TFISFZerosDoc, columns=list(columnsForDocHits))
+    for i in range(len(countSentenceListForEveryDoc)):
+        for word in countSentenceListForEveryDoc[i]:
+            if word in columnsForDocHits:
+                TFISFDataFrameDoc.loc[i, word] = calculateTFISF(word, countSentenceList[i], countSentenceList)
+
+    TFISFZeros = np.zeros(((len(sentenceList)), (len(columns))), dtype=float)
+    TFISFDataFrame = pd.DataFrame(TFISFZeros, columns=list(columns))
+    for i in range(len(countSentenceList)):
+        for word in countSentenceList[i]:
+            if word in columns:
+                TFISFDataFrame.loc[i, word] = calculateTFISF(word, countSentenceList[i], countSentenceList)
+    TFISFMatrixDoc = np.array(TFISFDataFrameDoc)
+    TFISFMatrix = np.array(TFISFDataFrame)
+    similar = np.dot(TFISFMatrix, TFISFMatrixDoc.transpose())
+    innerSen = np.sum(np.multiply(TFISFMatrix, TFISFMatrix), axis=1, keepdims=True)
+    innerDoc = np.sum(np.multiply(TFISFMatrixDoc, TFISFMatrixDoc), axis=1, keepdims=True)
+    inner = np.sqrt(np.dot(innerSen, innerDoc.transpose()))
+    similarMatrix = np.divide(similar, inner)
     return similarMatrix
 
 
@@ -326,6 +385,44 @@ def getSummaryByLexRank(fileList):
     return summary
 
 
+def getSummaryByDocHITS(fileList):
+    docList = getAllFileContext(fileList)
+    longSentenceForEveryDoc = getDocSentence(docList)
+    longSentenceForEveryDocClean = pretreatmentForDocHits(longSentenceForEveryDoc)
+    countSentenceListForEveryDoc = getCounter(longSentenceForEveryDocClean)
+    columnsForDocHits = getColumnsForDocHITS(longSentenceForEveryDocClean)
+    # similarForDoc = calculateSimilar(longSentenceForEveryDocClean, countSentenceListForEveryDoc, columnsForDocHits)
+
+    # print(similarForDoc)
+    # print(longSentenceForEveryDoc)
+    # 原始句子(正确分割)
+    originalSentences = getShortSentence(docList)
+    # print("originalSentences")
+    # print(len(originalSentences))
+    # 下面的docList是一个String类型的数组，每个元素是一个文档预处理完的所有句子
+    for i in range(len(docList)):
+        docList[i] = pretreatment(docList[i])
+    # 获得10个文章中的所有单词（处理过的）
+    columns = getColumns(docList)
+    # 获得所有句子的个数
+    getAllSentenceNumber(docList)
+
+    # 所有的句子
+    sentenceList = getShortSentence(docList)
+    # print("sentenceList")
+    # print(len(sentenceList))
+    sentenceList.append(getLongSentence(docList))
+
+    # 所有处理好的句子，然后统计了单词个数
+    countSentenceList = getCounter(sentenceList)
+    # similarMatrixForSentence = calculateSimilar(sentenceList, countSentenceList, columns)
+    similar = calculateSimilarForDocHITS(sentenceList, countSentenceList, columns, longSentenceForEveryDocClean,
+                                         countSentenceListForEveryDoc, columnsForDocHits)
+    print(similar)
+#     接下来改run函数了
+
+
+
 if __name__ == '__main__':
     PATHs = 'D:/学习/数据挖掘/理论/dataset/DUC04/unpreprocess data/docs/'
     fileL = ['d30001t/APW19981016.0240', 'd30001t/APW19981022.0269', 'd30001t/APW19981026.0220',
@@ -335,6 +432,8 @@ if __name__ == '__main__':
 
     # 将一整个topic的十个文件加载到fileList里面
     fileLists = [PATHs + f for f in fileL]
+
+    getSummaryByDocHITS(fileLists)
 
     PATHForManualSummary = 'D:/学习/数据挖掘/理论/dataset/04model/'
     fileLForManualSummary = ['D30001.M.100.T.A', 'D30001.M.100.T.B', 'D30001.M.100.T.C', 'D30001.M.100.T.D']
@@ -346,28 +445,28 @@ if __name__ == '__main__':
             data = myfile.read()
             allFileContextList.append(data)
 
-summaryByCosine = getSummaryByCosine(fileLists)
-print("summaryByCosine:")
-print(summaryByCosine)
-#
-summaryByBaseLine = getSummaryByBaseLine(fileLists)
-print("summaryByBaseLine:")
-print(summaryByBaseLine)
-#
-summaryByLexRank = getSummaryByLexRank(fileLists)
-print("summaryByLexRank")
-print(summaryByLexRank)
-
-a = ["i am a student from xx school"]  # 预测摘要 （可以是列表也可以是句子）
-b = ["i am a student from school on china"]  # 真实摘要
-
-rouge = Rouge()
-rouge_score = rouge.get_scores(summaryByLexRank, allFileContextList[1])
-value = rouge_score[0]["rouge-1"]
-f = value['f']
-p = value['p']
-r = value['r']
-print(f, p, r)
-print(rouge_score[0]["rouge-1"])
-# print(rouge_score[0]["rouge-2"])
-# print(rouge_score[0]["rouge-l"])
+    # summaryByCosine = getSummaryByCosine(fileLists)
+    # print("summaryByCosine:")
+    # print(summaryByCosine)
+    # #
+    # summaryByBaseLine = getSummaryByBaseLine(fileLists)
+    # print("summaryByBaseLine:")
+    # print(summaryByBaseLine)
+    # #
+    # summaryByLexRank = getSummaryByLexRank(fileLists)
+    # print("summaryByLexRank")
+    # print(summaryByLexRank)
+    #
+    # a = ["i am a student from xx school"]  # 预测摘要 （可以是列表也可以是句子）
+    # b = ["i am a student from school on china"]  # 真实摘要
+    #
+    # rouge = Rouge()
+    # rouge_score = rouge.get_scores(summaryByLexRank, allFileContextList[1])
+    # value = rouge_score[0]["rouge-1"]
+    # f = value['f']
+    # p = value['p']
+    # r = value['r']
+    # print(f, p, r)
+    # print(rouge_score[0]["rouge-1"])
+    # # print(rouge_score[0]["rouge-2"])
+    # # print(rouge_score[0]["rouge-l"])

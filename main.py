@@ -221,11 +221,11 @@ def calculateSimilarForDocHITS(sentenceList, countSentenceList, columns, longSen
             if word in columnsForDocHits:
                 TFISFDataFrameDoc.loc[i, word] = calculateTFISF(word, countSentenceList[i], countSentenceList)
 
-    TFISFZeros = np.zeros(((len(sentenceList)), (len(columns))), dtype=float)
-    TFISFDataFrame = pd.DataFrame(TFISFZeros, columns=list(columns))
+    TFISFZeros = np.zeros(((len(sentenceList)), (len(columnsForDocHits))), dtype=float)
+    TFISFDataFrame = pd.DataFrame(TFISFZeros, columns=list(columnsForDocHits))
     for i in range(len(countSentenceList)):
         for word in countSentenceList[i]:
-            if word in columns:
+            if word in columnsForDocHits:
                 TFISFDataFrame.loc[i, word] = calculateTFISF(word, countSentenceList[i], countSentenceList)
     TFISFMatrixDoc = np.array(TFISFDataFrameDoc)
     TFISFMatrix = np.array(TFISFDataFrame)
@@ -329,8 +329,8 @@ def sentenceSortByLexRank(p, sentenceList, originalSentences, threshold, similar
     summaryIndex = []
     sortedSentenceMatrix = np.array(sortedSentence)
     # while len(summary) < 665:
-    for rowIndex in range(len(sentenceList) - 1):
-        number = sortedSentenceMatrix[rowIndex + 1][0]
+    for rowIndex in range(len(sentenceList)):
+        number = sortedSentenceMatrix[rowIndex][0]
         # number 句子按相似度从大到小的排序的下标
         number = int(number)
         if controlRedundancy(summaryIndex, number, similarMatrix, threshold):
@@ -419,7 +419,7 @@ def getSummaryByLexRank(fileList):
     sentenceList = getShortSentence(docList)
     # print("sentenceList")
     # print(len(sentenceList))
-    sentenceList.append(getLongSentence(docList))
+    # sentenceList.append(getLongSentence(docList))
 
     # 所有处理好的句子，然后统计了单词个数
     countSentenceList = getCounter(sentenceList)
@@ -474,16 +474,16 @@ def getFileNames(path):
 
 
 if __name__ == '__main__':
-    PATHs = 'D:/学习/数据挖掘/理论/dataset/DUC04/unpreprocess data/docs/d30001t'
+    PATHs = 'D:/学习/数据挖掘/理论/dataset/DUC04/unpreprocess data/docs/d30005t'
     fileL = getFileNames(PATHs)
     # 将一整个topic的十个文件加载到fileList里面
     fileLists = [PATHs + '/' + f for f in fileL]
 
     PATHForManualSummary = 'D:/学习/数据挖掘/理论/dataset/04model/'
-    fileLForManualSummary = ['D30001.M.100.T.A',
-                             'D30001.M.100.T.B',
-                             'D30001.M.100.T.C',
-                             'D30001.M.100.T.D']
+    fileLForManualSummary = ['D30005.M.100.T.A',
+                             'D30005.M.100.T.B',
+                             'D30005.M.100.T.C',
+                             'D30005.M.100.T.G']
     fileListForManualSummary = [PATHForManualSummary + f for f in fileLForManualSummary]
     allFileContextList = []
     for fileName in fileListForManualSummary:
@@ -491,36 +491,46 @@ if __name__ == '__main__':
             data = myfile.read()
             allFileContextList.append(data)
 
-    # summaryByCosine = getSummaryByCosine(fileLists)
-    # print("summaryByCosine:")
-    # print(summaryByCosine)
+    summaryByCosine = getSummaryByCosine(fileLists)
+    print("summaryByCosine:")
+    print(summaryByCosine)
 
-    # summaryByBaseLine = getSummaryByBaseLine(fileLists)
-    # print("summaryByBaseLine:")
-    # print(summaryByBaseLine)
+    summaryByBaseLine = getSummaryByBaseLine(fileLists)
+    print("summaryByBaseLine:")
+    print(summaryByBaseLine)
 
-    # summaryByLexRank = getSummaryByLexRank(fileLists)
-    # print("summaryByLexRank")
-    # print(summaryByLexRank)
+    summaryByLexRank = getSummaryByLexRank(fileLists)
+    print("summaryByLexRank")
+    print(summaryByLexRank)
 
     summaryByDocHITS = getSummaryByDocHITS(fileLists)
     print("summaryByDocHITS:")
     print(summaryByDocHITS)
 
-    f = 0
-    p = 0
-    r = 0
+    summary = []
+    summary.append(summaryByCosine)
+    summary.append(summaryByBaseLine)
+    summary.append(summaryByLexRank)
+    summary.append(summaryByDocHITS)
 
-    rouge = Rouge()
-    for allFileContext in allFileContextList:
-        rouge_score = rouge.get_scores(summaryByDocHITS, allFileContext)
-        value = rouge_score[0]["rouge-1"]
-        f = f + value['f']
-        p = p + value['p']
-        r = r + value['r']
-    print(f / len(allFileContextList))
-    print(p / len(allFileContextList))
-    print(r / len(allFileContextList))
+    for s in summary:
+        f = 0
+        p = 0
+        r = 0
+        rouge = Rouge()
+        for allFileContext in allFileContextList:
+            rouge_score = rouge.get_scores(s, allFileContext)
+            value = rouge_score[0]["rouge-1"]
+            f = f + value['f']
+            p = p + value['p']
+            r = r + value['r']
+        print("AverageR")
+        print(r / len(allFileContextList))
+        print("AverageP")
+        print(p / len(allFileContextList))
+        print("AverageF")
+        print(f / len(allFileContextList))
+        print("****************************************")
 
     # print(rouge_score[0]["rouge-1"])
     # print(rouge_score[0]["rouge-2"])

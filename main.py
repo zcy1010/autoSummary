@@ -8,6 +8,7 @@ import pandas as pd
 import sys
 from rouge import Rouge
 from pathlib import Path
+import os
 
 
 # np.seterr(divide='ignore', invalid='ignore')
@@ -207,8 +208,12 @@ def calculateSimilar(sentenceList, countSentenceList, columns):
     return similarMatrix
 
 
+def norm(matrix):
+    return matrix / np.linalg.norm(matrix)
+
+
 def calculateSimilarForDocHITS(sentenceList, countSentenceList, columns, longSentenceForEveryDocClean,
-                               countSentenceListForEveryDoc, columnsForDocHits):
+                               countSentenceListForEveryDoc, columnsForDocHits, shape_A, shape_H):
     TFISFZerosDoc = np.zeros(((len(longSentenceForEveryDocClean)), (len(columnsForDocHits))), dtype=float)
     TFISFDataFrameDoc = pd.DataFrame(TFISFZerosDoc, columns=list(columnsForDocHits))
     for i in range(len(countSentenceListForEveryDoc)):
@@ -229,7 +234,21 @@ def calculateSimilarForDocHITS(sentenceList, countSentenceList, columns, longSen
     innerDoc = np.sum(np.multiply(TFISFMatrixDoc, TFISFMatrixDoc), axis=1, keepdims=True)
     inner = np.sqrt(np.dot(innerSen, innerDoc.transpose()))
     similarMatrix = np.divide(similar, inner)
-    return similarMatrix
+    epoch = 1
+    last_A = A = np.ones((shape_A, 1))
+    last_H = H = np.ones((shape_H, 1))
+    while True:
+        # 求模
+        A = norm(np.dot(similarMatrix, last_H))
+        H = norm(np.dot(similarMatrix.transpose(), last_A))
+        loss_A = np.sum(last_A - A)
+        loss_H = np.sum(last_H - H)
+        if max(loss_A, loss_H) < 0.00001:
+            return A.transpose()
+
+        epoch += 1
+        last_A = A
+        last_H = H
 
 
 def controlRedundancy(summaryIndex, thisIndex, similarMatrix, threshold):
@@ -322,6 +341,32 @@ def sentenceSortByLexRank(p, sentenceList, originalSentences, threshold, similar
     return summary[0:665]
 
 
+def sentenceSortByDocHits(vecA, sentenceList, originalSentences, threshold, similarMatrix):
+    lastRow = vecA
+    index = []
+    for i in range(len(sentenceList)):
+        index.append(i)
+    lastRowAndIndex = [index, lastRow]
+    column = ['index', 'sentence']
+    lastRowDataFrame = pd.DataFrame(np.mat(lastRowAndIndex).transpose(), columns=column)
+    # 从高到底进行排序，与长句子的对比度
+    sortedSentence = lastRowDataFrame.sort_values(by=column[1], ascending=False)
+    summary = ''
+    summaryIndex = []
+    sortedSentenceMatrix = np.array(sortedSentence)
+    # while len(summary) < 665:
+    for rowIndex in range(len(sentenceList)):
+        number = sortedSentenceMatrix[rowIndex][0]
+        # number 句子按相似度从大到小的排序的下标
+        number = int(number)
+        if controlRedundancy(summaryIndex, number, similarMatrix, threshold):
+            summaryIndex.append(int(number))
+            summary = summary + ' ' + originalSentences[number]
+            summary.strip()
+    # 获得原始句子列表，注意下标不一样，加入summary 注意while循环
+    return summary[0:665]
+
+
 def getSummaryByCosine(fileList):
     docList = getAllFileContext(fileList)
     # 原始句子(正确分割)
@@ -387,86 +432,96 @@ def getSummaryByLexRank(fileList):
 
 def getSummaryByDocHITS(fileList):
     docList = getAllFileContext(fileList)
+    # 长句子用的
     longSentenceForEveryDoc = getDocSentence(docList)
     longSentenceForEveryDocClean = pretreatmentForDocHits(longSentenceForEveryDoc)
     countSentenceListForEveryDoc = getCounter(longSentenceForEveryDocClean)
     columnsForDocHits = getColumnsForDocHITS(longSentenceForEveryDocClean)
-    # similarForDoc = calculateSimilar(longSentenceForEveryDocClean, countSentenceListForEveryDoc, columnsForDocHits)
 
     # print(similarForDoc)
     # print(longSentenceForEveryDoc)
     # 原始句子(正确分割)
     originalSentences = getShortSentence(docList)
-    # print("originalSentences")
-    # print(len(originalSentences))
+
     # 下面的docList是一个String类型的数组，每个元素是一个文档预处理完的所有句子
     for i in range(len(docList)):
         docList[i] = pretreatment(docList[i])
+    # 短句子用的
     # 获得10个文章中的所有单词（处理过的）
     columns = getColumns(docList)
     # 获得所有句子的个数
     getAllSentenceNumber(docList)
-
     # 所有的句子
     sentenceList = getShortSentence(docList)
     # print("sentenceList")
     # print(len(sentenceList))
-    sentenceList.append(getLongSentence(docList))
+    # sentenceList.append(getLongSentence(docList))
 
     # 所有处理好的句子，然后统计了单词个数
     countSentenceList = getCounter(sentenceList)
-    # similarMatrixForSentence = calculateSimilar(sentenceList, countSentenceList, columns)
-    similar = calculateSimilarForDocHITS(sentenceList, countSentenceList, columns, longSentenceForEveryDocClean,
-                                         countSentenceListForEveryDoc, columnsForDocHits)
-    print(similar)
-#     接下来改run函数了
+    similarMatrixForSentence = calculateSimilar(sentenceList, countSentenceList, columns)
+    vecA = calculateSimilarForDocHITS(sentenceList, countSentenceList, columns, longSentenceForEveryDocClean,
+                                      countSentenceListForEveryDoc, columnsForDocHits, len(sentenceList),
+                                      len(longSentenceForEveryDocClean))
 
+    summary = sentenceSortByDocHits(vecA[0], sentenceList, originalSentences, 0.7, similarMatrixForSentence)
+    return summary
+
+
+def getFileNames(path):
+    for root, dirs, files in os.walk(path):
+        return files
 
 
 if __name__ == '__main__':
-    PATHs = 'D:/学习/数据挖掘/理论/dataset/DUC04/unpreprocess data/docs/'
-    fileL = ['d30001t/APW19981016.0240', 'd30001t/APW19981022.0269', 'd30001t/APW19981026.0220',
-             'd30001t/APW19981027.0491', 'd30001t/APW19981031.0167', 'd30001t/APW19981113.0251',
-             'd30001t/APW19981116.0205', 'd30001t/APW19981118.0276', 'd30001t/APW19981120.0274',
-             'd30001t/APW19981124.0267']
-
+    PATHs = 'D:/学习/数据挖掘/理论/dataset/DUC04/unpreprocess data/docs/d30001t'
+    fileL = getFileNames(PATHs)
     # 将一整个topic的十个文件加载到fileList里面
-    fileLists = [PATHs + f for f in fileL]
-
-    getSummaryByDocHITS(fileLists)
+    fileLists = [PATHs + '/' + f for f in fileL]
 
     PATHForManualSummary = 'D:/学习/数据挖掘/理论/dataset/04model/'
-    fileLForManualSummary = ['D30001.M.100.T.A', 'D30001.M.100.T.B', 'D30001.M.100.T.C', 'D30001.M.100.T.D']
+    fileLForManualSummary = ['D30001.M.100.T.A',
+                             'D30001.M.100.T.B',
+                             'D30001.M.100.T.C',
+                             'D30001.M.100.T.D']
     fileListForManualSummary = [PATHForManualSummary + f for f in fileLForManualSummary]
     allFileContextList = []
     for fileName in fileListForManualSummary:
         with open(fileName, 'r') as myfile:
-            # print(myfile.is_file())
             data = myfile.read()
             allFileContextList.append(data)
 
     # summaryByCosine = getSummaryByCosine(fileLists)
     # print("summaryByCosine:")
     # print(summaryByCosine)
-    # #
+
     # summaryByBaseLine = getSummaryByBaseLine(fileLists)
     # print("summaryByBaseLine:")
     # print(summaryByBaseLine)
-    # #
+
     # summaryByLexRank = getSummaryByLexRank(fileLists)
     # print("summaryByLexRank")
     # print(summaryByLexRank)
-    #
-    # a = ["i am a student from xx school"]  # 预测摘要 （可以是列表也可以是句子）
-    # b = ["i am a student from school on china"]  # 真实摘要
-    #
-    # rouge = Rouge()
-    # rouge_score = rouge.get_scores(summaryByLexRank, allFileContextList[1])
-    # value = rouge_score[0]["rouge-1"]
-    # f = value['f']
-    # p = value['p']
-    # r = value['r']
-    # print(f, p, r)
+
+    summaryByDocHITS = getSummaryByDocHITS(fileLists)
+    print("summaryByDocHITS:")
+    print(summaryByDocHITS)
+
+    f = 0
+    p = 0
+    r = 0
+
+    rouge = Rouge()
+    for allFileContext in allFileContextList:
+        rouge_score = rouge.get_scores(summaryByDocHITS, allFileContext)
+        value = rouge_score[0]["rouge-1"]
+        f = f + value['f']
+        p = p + value['p']
+        r = r + value['r']
+    print(f / len(allFileContextList))
+    print(p / len(allFileContextList))
+    print(r / len(allFileContextList))
+
     # print(rouge_score[0]["rouge-1"])
-    # # print(rouge_score[0]["rouge-2"])
-    # # print(rouge_score[0]["rouge-l"])
+    # print(rouge_score[0]["rouge-2"])
+    # print(rouge_score[0]["rouge-l"])
